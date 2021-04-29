@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "myNewProject",
+    "slug": "myNewProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.desn.lightrailapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.desn.lightrailapp",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAN3FIYLWjva_UHUdQeEBP4_ICnMJ5H4lo"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
